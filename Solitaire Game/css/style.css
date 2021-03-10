@@ -1,0 +1,70 @@
+/* Default CSS File */
+
+body {
+    color:#111;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../Solitaire%20Background.jpg');
+}
+
+#container {
+    margin:20px auto 20px auto;
+    width:1500px;
+    height:1000px;
+    border:1px dashed blue;
+    padding:10px;
+    background: green;
+}
+
+
+
+
+
+/* Google Fonts
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* Full Screen Image
+
+background-image:URL(/images/);
+background-position: center center;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size:  cover;
+background-color: #999;
+
+*/
+
+/*  Making a Fullscreen Video Background 
+
+#video-background{
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+*/
+
+/* Individual Side Box Shadows
+
+top {
+  box-shadow: 0px -15px 10px -15px #111;
+}
+bottom {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+left {
+  box-shadow: -15px 0px 10px -15px #111;
+}
+right {
+  box-shadow: 15px 0px 10px -15px #111;
+}
+
+*/

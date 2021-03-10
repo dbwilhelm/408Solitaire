@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Default Template</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <!-- Stylesheets -->
+    <link href="css/destyle.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    
+    <!-- Google Font(s) -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <script src="Javascript/cardgamecore.js" type="text/javascript"></script>
+    <script src="Javascript/solitaire.js" type="text/javascript"></script>
+    
+</head> 
+<body>
+
+<div id="container">
+    <div id="putgamehere">
+    <scrip>
+    window.onload = function () {
+  if( !document.getElementById ) { return; } // To be nice to old browsers
+  var game1 = new solitaireGame('solitaire1',document.getElementById('putgamehere'));
+  game1.addImagePack('cardsets/h36/',[['walk','Mountain walk'],['midnightsun','Midnight sun']],'.png',25,36,'Northern Norway');
+  game1.addImagePack('cardsets/h96/',[['bluepattern','Blue pattern'],['blue','Plain blue'],['x','Red X']],'.gif',71,96,'Once in a Lifetime');
+  game1.addImagePack('cardsets/h135/',[['orcaspyhop1','Orca spy-hop 1'],['orcaspyhop2','Orca spy-hop 2'],['orcajump','Orca jump'],['dolphin','Dolphin'],['puffin','Puffin'],['puffingrass','Puffin lookout'],['puffingroup','Puffin group'],['lizard','Lizard'],['turtle','Turtle'],['cloud','Shroud of cloud'],['redwine','Red wine'],['horse','Horseback'],['mouldings','Mouldings']],'.png',90,135,'Orca');
+  game1.startGame();
+
+    
+   </scrip> 
+    </div>
+    
+    
+    
+    
+    
+        
+</div>   
+        
+</body>
+</html>
+
+<!--   
+
+<video autoplay loop id="video-background" muted plays-inline>
+    <source src="/video/.mp4">
+</video>    
+
+-->
